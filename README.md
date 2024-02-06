@@ -20,6 +20,7 @@ El Proyecto Bienes raices es una plataforma básica enfocada en el ámbito de la
 <p align="center">
  <img src="/img_readme/diagrama-de-secuencia-administrador.png" width="500">
 </p>
+
  - **Secuencia usuarios:**
 
 <p align="center">
