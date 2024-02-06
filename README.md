@@ -1,7 +1,7 @@
 # Proyecto Bienes raices
 
 ## Descripción
-El Proyecto Bienes raices es una plataforma básica enfocada en el ámbito de la finca raíz, diseñada para alojar publicaciones de casas en venta con descripciones detalladas. Incluye un sistema de acceso para administradores encargados de las publicaciones, operando dinámicamente con una base de datos para la gestión de propiedades y usuarios.
+El Proyecto de Bienes Raíces constituye una plataforma elemental diseñada específicamente para el sector de ventas de viviendas. Esta plataforma está equipada para presentar anuncios de casas en venta, acompañados de breves descripciones. Asimismo, incorpora un sistema de acceso exclusivo para los administradores responsables de gestionar dichas publicaciones, operando de manera dinámica con una base de datos destinada a la administración de propiedades y usuarios.
 
 ## Tecnologías y Herramientas Utilizadas
 - PHP v8
@@ -59,7 +59,6 @@ El Proyecto Bienes raices es una plataforma básica enfocada en el ámbito de la
 
 
 ## Estructura del Proyecto
-El proyecto cuenta con una estructura personalizada que soporta la gestión de usuarios, propiedades, y la interacción con la base de datos, asegurando una experiencia de usuario fluida y eficiente.
 
 <p align="center">
  <img src="/img_readme/estructura-proyecto.png" width="500">
