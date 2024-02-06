@@ -1,7 +1,7 @@
-# Proyecto Finca Raiz
+# Proyecto Bienes raices
 
 ## Descripción
-El Proyecto Finca Raiz es una plataforma básica enfocada en el ámbito de la finca raíz, diseñada para alojar publicaciones de casas en venta con descripciones detalladas. Incluye un sistema de acceso para administradores encargados de las publicaciones, operando dinámicamente con una base de datos para la gestión de propiedades y usuarios.
+El Proyecto Bienes raices es una plataforma básica enfocada en el ámbito de la finca raíz, diseñada para alojar publicaciones de casas en venta con descripciones detalladas. Incluye un sistema de acceso para administradores encargados de las publicaciones, operando dinámicamente con una base de datos para la gestión de propiedades y usuarios.
 
 ## Tecnologías y Herramientas Utilizadas
 - PHP v8
@@ -15,18 +15,45 @@ El Proyecto Finca Raiz es una plataforma básica enfocada en el ámbito de la fi
 
 ## Características y Funcionalidades
 - **Sistema de Autenticación:** Directorio `/admin/login.php` para la autenticación de usuarios, con encriptación de contraseñas.
-- **Gestión de Publicaciones (Administrador):**
- ![Gestión de Publicaciones](/img_readme/diagrama-de-secuencia-administrador.png)
- <img src="/img_readme/diagrama-de-secuencia-administrador.png" width="250">
+
+- **Secuencia de Publicaciones (Administrador):**
+
+ <img src="/img_readme/diagrama-de-secuencia-administrador.png" width="500">
+
+ - **Secuencia usuarios:**
+
+  <img src="/img_readme/diagrama-secuencia-usuarios.png" width="500">
 
 # Base de datos
 
+ <img src="/img_readme/diagrama-entidad-relacion.png" width="500">
+
 ## Entidades y Atributos Principales
-- **PROPIEDADES:** Incluye campos como código de propiedad, vendedor asignado, título, precio, imagen, descripción, habitaciones, baños, estacionamiento, y fecha de creación.
-- **VENDEDORES:** Datos del vendedor como código, nombre, apellido, teléfono, y correo electrónico.
+# Bienes Raíces - Esquema de Base de Datos
+
+## Tabla: PROPIEDADES
+
+- **COD_PROPIEDAD**: Clave primaria, entero no nulo. Identifica cada propiedad de forma única.
+- **COD_VENDEDOR**: Entero, clave foránea que enlaza a la tabla de vendedores. Asigna vendedor a propiedad.
+- **TITULO**: Texto (varchar, máximo 100 caracteres). Título o nombre breve de la propiedad.
+- **PRECIO**: Numérico (decimal). Precio de la propiedad.
+- **IMAGEN**: Texto (varchar, máximo 200 caracteres). URL o referencia de imagen.
+- **DESCRIPCION**: Texto largo (longtext). Descripción detallada.
+- **HABITACIONES**: Entero. Número de habitaciones.
+- **BAÑOS**: Entero. Número de baños.
+- **ESTACIONAMIENTO**: Entero. Espacios de estacionamiento disponibles.
+- **FECHA_CREACION**: Fecha. Fecha de adición de la propiedad a la base.
+
+## Tabla: VENDEDORES
+
+- **COD_VENDEDOR**: Clave primaria, entero no nulo. Identifica a cada vendedor de forma única.
+- **NOMBRE**: Texto (varchar). Nombre del vendedor.
+- **APELLIDO**: Texto (varchar). Apellido del vendedor.
+- **TELEFONO**: Numérico (int). Número de teléfono.
+- **EMAIL**: Texto (varchar). Correo electrónico del vendedor.
+
 
 ## Estructura del Proyecto
 El proyecto cuenta con una estructura personalizada que soporta la gestión de usuarios, propiedades, y la interacción con la base de datos, asegurando una experiencia de usuario fluida y eficiente.
 
----
-Para más información sobre cómo contribuir o utilizar este proyecto, consulte la documentación adicional incluida en los directorios específicos.
+ <img src="/img_readme/estructura-proyecto.png" width="500">
