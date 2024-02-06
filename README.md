@@ -20,14 +20,17 @@ El Proyecto Bienes raices es una plataforma básica enfocada en el ámbito de la
 <div style="text-align: center;">
  <img src="/img_readme/diagrama-de-secuencia-administrador.png" width="500">
 </div>
+
  - **Secuencia usuarios:**
 <div style="text-align: center;">
   <img src="/img_readme/diagrama-secuencia-usuarios.png" width="500">
 </div>
+
 # Base de datos
 <div style="text-align: center;">
  <img src="/img_readme/diagrama-entidad-relacion.png" width="500">
 </div>
+
 ## Entidades y Atributos Principales
 # Bienes Raíces - Esquema de Base de Datos
 
