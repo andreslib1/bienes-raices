@@ -18,7 +18,7 @@ El Proyecto de Bienes Raíces constituye una plataforma elemental diseñada espe
 El proyecto incluye un **Sistema de Autenticación** ubicado dentro del directorio `/admin/login.php`. Este sistema permite a los usuarios autenticarse utilizando credenciales preestablecidas. Se destacan los siguientes puntos:
 
 - **Usuarios Predefinidos**: Existen tres usuarios creados por defecto con contraseñas encriptadas.
-- **Encriptación de Contraseñas**: Las contraseñas se generan y almacenan de manera encriptada en la base de datos, asegurando una mayor seguridad.
+- **Encriptación de Contraseñas**: Las contraseñas se almacenan de manera encriptada en la base de datos, asegurando una mayor seguridad.
 - **Acceso Restringido**: Solo los usuarios que han iniciado sesión pueden acceder a las rutas administrativas del sistema.
 
 Este mecanismo de autenticación garantiza que solo usuarios autorizados puedan acceder a la aplicación.
