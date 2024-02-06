@@ -15,7 +15,10 @@ El Proyecto Finca Raiz es una plataforma básica enfocada en el ámbito de la fi
 
 ## Características y Funcionalidades
 - **Sistema de Autenticación:** Directorio `/admin/login.php` para la autenticación de usuarios, con encriptación de contraseñas.
-- **Gestión de Publicaciones (Administrador):** Herramientas para la administración eficaz de las publicaciones de propiedades.
+- **Gestión de Publicaciones (Administrador):**
+ ![Gestión de Publicaciones](/img_readme/diagrama-de-secuencia-administrador.png)
+
+# Base de datos
 
 ## Entidades y Atributos Principales
 - **PROPIEDADES:** Incluye campos como código de propiedad, vendedor asignado, título, precio, imagen, descripción, habitaciones, baños, estacionamiento, y fecha de creación.
