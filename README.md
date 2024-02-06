@@ -17,19 +17,16 @@ El Proyecto Bienes raices es una plataforma básica enfocada en el ámbito de la
 - **Sistema de Autenticación:** Directorio `/admin/login.php` para la autenticación de usuarios, con encriptación de contraseñas.
 
 - **Secuencia de Publicaciones (Administrador):**
-<div style="text-align: center;">
+<p align="center">
  <img src="/img_readme/diagrama-de-secuencia-administrador.png" width="500">
-</div>
-
+</p>
  - **Secuencia usuarios:**
-<div style="text-align: center;">
+
   <img src="/img_readme/diagrama-secuencia-usuarios.png" width="500">
-</div>
 
 # Base de datos
-<div style="text-align: center;">
+
  <img src="/img_readme/diagrama-entidad-relacion.png" width="500">
-</div>
 
 ## Entidades y Atributos Principales
 # Bienes Raíces - Esquema de Base de Datos
@@ -58,6 +55,5 @@ El Proyecto Bienes raices es una plataforma básica enfocada en el ámbito de la
 
 ## Estructura del Proyecto
 El proyecto cuenta con una estructura personalizada que soporta la gestión de usuarios, propiedades, y la interacción con la base de datos, asegurando una experiencia de usuario fluida y eficiente.
-<div style="text-align: center;">
+
  <img src="/img_readme/estructura-proyecto.png" width="500">
- </div>
