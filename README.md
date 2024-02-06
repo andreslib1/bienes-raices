@@ -17,6 +17,7 @@ El Proyecto Finca Raiz es una plataforma básica enfocada en el ámbito de la fi
 - **Sistema de Autenticación:** Directorio `/admin/login.php` para la autenticación de usuarios, con encriptación de contraseñas.
 - **Gestión de Publicaciones (Administrador):**
  ![Gestión de Publicaciones](/img_readme/diagrama-de-secuencia-administrador.png)
+ <img src="/img_readme/diagrama-de-secuencia-administrador.png" width="250">
 
 # Base de datos
 
