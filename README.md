@@ -6,8 +6,7 @@ El Proyecto de Bienes Raíces constituye una plataforma elemental diseñada espe
 link administradores:
 https://bienesraices.nexoweblabs.com/admin/login.php
 
-##Usuario
-
+## Usuario
 gmail: testuser@gmail.com
 
 pass: 123
