@@ -3,6 +3,13 @@
 ## Descripción
 El Proyecto de Bienes Raíces constituye una plataforma elemental diseñada específicamente para el sector de ventas de viviendas. Esta plataforma está equipada para presentar anuncios de casas en venta, acompañados de breves descripciones. Asimismo, incorpora un sistema de acceso exclusivo para los administradores responsables de gestionar dichas publicaciones, operando de manera dinámica con una base de datos destinada a la administración de propiedades y usuarios.
 
+link administradores:
+https://bienesraices.nexoweblabs.com/admin/login.php
+
+Usuario
+gmail: testuser@gmail.com
+pass: 123
+
 ## Tecnologías y Herramientas Utilizadas
 - PHP v8
 - HTML
