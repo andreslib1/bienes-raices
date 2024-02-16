@@ -7,6 +7,7 @@ link administradores:
 https://bienesraices.nexoweblabs.com/admin/login.php
 
 ##Usuario
+
 gmail: testuser@gmail.com
 
 pass: 123
